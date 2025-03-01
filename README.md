@@ -12,7 +12,7 @@ We are transitioning to an environment where users want to outsource and automat
 
 In this future, these powerful first-point operator agents will need to receive, understand, process, and respond to complex user requests. To do so effectively, they will be in charge of breaking said task into easier-to-complete subtasks. For each of these subtasks, the operator agent will be in charge of discovering, contracting, and coordinating a set of purpose-specific agents.
 
-**🌟The Agent Pages Protocol** answers the question: "How do we efficiently discover and coordinate a user's intent when there are multiple agentic frameworks that house thousands of purpose-specific agents each?"
+**The Agent Pages Protocol** answers the question: "How do we efficiently discover and coordinate a user's intent when there are multiple agentic frameworks that house thousands of purpose-specific agents each?"
 
 ## 🌟Project Vision
 
