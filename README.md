@@ -90,10 +90,6 @@ TheAgentPages/
 ├── LICENSE # Project licensing details
 └── README.md # Project documentation
 
-text
-
-
-
 ## Installation
 
 1.  **Clone the repository:**
