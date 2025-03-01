@@ -49,7 +49,7 @@ The frontend system initializes and manages:
     *   How the tasks are actually executed live.
     *   The real-time confirmation of task completion.
 
-## Key Functionalities
+## 🌟Key Functionalities
 
 *   **Alignment Score-infused Sponsored Search Auction:** Dictates an auction mechanism that selects the best agent based on the agent’s truthful bid value, compatible actions, reliability, execution success rate, and previous uptime.
 *   **Agent Initialization:**
@@ -62,7 +62,7 @@ The frontend system initializes and manages:
     *   **Chat Mode:** Parses user requests and generates subtasks.
     *   **Autonomous Mode:** Runs continuously, performing creative blockchain interactions.
 
-## Tech Stack
+## 🌟Tech Stack
 
 *   Node.js (TypeScript)
 *   Coinbase AgentKit
@@ -72,7 +72,7 @@ The frontend system initializes and manages:
 *   dotenv for environment variables
 *   Axios for REST API requests
 
-```TheAgentPages/
+```🌟TheAgentPages/
 
 ├── agents/  # AI agent implementations
 │   ├── CryptoPurchaseAgent.js  # Handles cryptocurrency transactions
@@ -92,7 +92,7 @@ The frontend system initializes and manages:
 └── README.md  # Project documentation
 ```
 
-## Installation
+## 🌟Installation
 
 1.  **Clone the repository:**
 
@@ -128,7 +128,7 @@ The frontend system initializes and manages:
 
     The server will start running at `http://localhost:5000` (or as configured).
 
-## How It Works
+## 🌟How It Works
 
 1.  **Loads Environment Variables:**
 
@@ -161,7 +161,7 @@ The frontend system initializes and manages:
     *   Uses `try-catch` for error handling.
     *   Ends execution if an error occurs.
 
-## Contributing
+## 🌟Contributing
 
 1.  Fork the repository
 2.  Create a feature branch (`git checkout -b feature-name`)
@@ -169,11 +169,11 @@ The frontend system initializes and manages:
 4.  Push to the branch (`git push origin feature-name`)
 5.  Open a pull request
 
-## License
+## 🌟License
 
 This project is licensed under the MIT License.
 
-## Acknowledgments
+## 🌟Acknowledgments
 
 [Add any specific acknowledgments here - libraries, frameworks, people, etc.]
 
