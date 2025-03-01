@@ -12,22 +12,22 @@ We are transitioning to an environment where users want to outsource and automat
 
 In this future, these powerful first-point operator agents will need to receive, understand, process, and respond to complex user requests. To do so effectively, they will be in charge of breaking said task into easier-to-complete subtasks. For each of these subtasks, the operator agent will be in charge of discovering, contracting, and coordinating a set of purpose-specific agents.
 
-**The Agent Pages Protocol** answers the question: "How do we efficiently discover and coordinate a user's intent when there are multiple agentic frameworks that house thousands of purpose-specific agents each?"
+**🌟The Agent Pages Protocol** answers the question: "How do we efficiently discover and coordinate a user's intent when there are multiple agentic frameworks that house thousands of purpose-specific agents each?"
 
-## Project Vision
+## 🌟Project Vision
 
 *   **Decentralized Agent Registry:** A trustless token-curated registry for off-chain and on-chain autonomous agents that specifies an agent’s functionality, uptime, reliability, and any potentially associated token.
 *   **Agent Discovery & Coordination:** Implements a robust sponsored search mechanism for agent selection and interaction based on defined parameters and per subtask.
 *   **Frontend Chatbot Interface:** Enables users to communicate with agents through natural language commands directly from a user’s connected Coinbase wallet.
 *   **Task Execution Framework:** Breaks down complex user requests into structured subtasks for efficient execution and allocation amongst purpose-specific agents.
 
-## Key Features
+## 🌟Key Features
 
 *   **Operator Agent Deployment:** An operator agent is a parsing, reasoning, and coordination agent associated with the user's Coinbase Wallet for on-chain task reasoning, execution, and confirmation.
 *   **AI-Powered Chatbot:** Users interact with their wallet-associated operator agent through an easy-to-utilize chatbot frontend. This frontend processes user commands and decomposes them into executable subtasks that are then bid on.
 *   **Autonomous Execution:** Agents can interact and perform on-chain actions on behalf of the user with minimal manual intervention.
 
-## Overview
+## 🌟Overview
 
 This backend system initializes and manages:
 
