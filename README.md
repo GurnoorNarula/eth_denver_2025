@@ -72,69 +72,107 @@ The frontend system initializes and manages:
 *   dotenv for environment variables
 *   Axios for REST API requests
 
-**Project Structure**
 TheAgentPages/
-├── agents/                  # AI agent implementations
-│   ├── CryptoPurchaseAgent.js  # Handles cryptocurrency transactions
-│   ├── OperatorAgent.js        # Manages operational tasks
-│   ├── TwitterPostingAgent.js  # Automates Twitter postings
-├── backend/                 # Core backend server
-│   ├── app.ts               # Main backend entry point (TypeScript)
-│   ├── .env                 # Environment variables
-│   ├── package.json         # Node.js dependencies
-├── contracts/               # Smart contracts for agent coordination
-│   ├── AgentRegistry.sol     # Contract for agent registration
-│   ├── TaskExecution.sol     # Contract for executing tasks
-├── frontend/                # User-facing chatbot interface
-│   ├── pages/               # Frontend pages for interaction
-│   ├── components/          # Reusable UI components
-├── LICENSE                  # Project licensing details
-├── README.md                # Project documentation
+├── agents/ # AI agent implementations
+│ ├── CryptoPurchaseAgent.js # Handles cryptocurrency transactions
+│ ├── OperatorAgent.js # Manages operational tasks
+│ ├── TwitterPostingAgent.js # Automates Twitter postings
+├── backend/ # Core backend server
+│ ├── app.ts # Main backend entry point (TypeScript)
+│ ├── .env # Environment variables
+│ ├── package.json # Node.js dependencies
+├── contracts/ # Smart contracts for agent coordination
+│ ├── AgentRegistry.sol # Contract for agent registration
+│ ├── TaskExecution.sol # Contract for executing tasks
+├── frontend/ # User-facing chatbot interface
+│ ├── pages/ # Frontend pages for interaction
+│ ├── components/ # Reusable UI components
+├── LICENSE # Project licensing details
+├── README.md # Project documentation
 
-**Installation**
-Clone the repository:
-   git clone https://github.com/your-repo/TheAgentPages.git
-   cd TheAgentPages-backend
-Install dependencies:
-npm install
-Set up environment variables: Create a .env file in the backend/ directory and configure the necessary variables: (LOL Cooked)
 
-VIRTUALS_API_URL=your_virtuals_api_url
-VIRTUALS_TERMINAL_API_URL=your_virtuals_terminal_api_url
-API_KEY=your_api_key
-PRIVATE_KEY=your_private_key
-un the backend server:
 
-cd backend
-npm run dev
-The server will start running at http://localhost:5000 (or as configured).
-**How It Works**
-Loads Environment Variables
-Uses dotenv.config() to read API URLs from a .env file.
-Reads:
-VIRTUALS_API_URL: The main API for virtual agents.
-VIRTUALS_TERMINAL_API_URL: The logging API.
-Fetches Available Virtual Agents
-Calls GET {VIRTUALS_API_URL}/agents to retrieve a list of available agents.
-Selects the Best Virtual Agent via an Auction
-Sends a POST request to {VIRTUALS_API_URL}/auction with the list of agents.
-The API responds with bestAgent, which is assumed to be the most suitable agent.
-Executes an Action Using the Selected Agent
-Sends a POST request to {VIRTUALS_API_URL}/execute with the selected agent.
-Receives execution results.
-Logs the Execution Result
-Sends a POST request to {VIRTUALS_TERMINAL_API_URL}/log with the execution results.
-Handles Errors Gracefully
-If no agents are available or an API call fails, it logs errors.
-Uses try-catch for error handling.
-Ends execution if an error occurs.
-Contributing
-Fork the repository
-Create a feature branch (git checkout -b feature-name)
-Commit your changes (git commit -m 'Add new feature')
-Push to the branch (git push origin feature-name)
-Open a pull request
-License
+## Installation
+
+1.  **Clone the repository:**
+
+    ```
+    git clone https://github.com/your-repo/TheAgentPages.git
+    cd TheAgentPages
+    ```
+
+2.  **Install dependencies:**
+
+    ```
+    npm install
+    ```
+
+3.  **Set up environment variables:**
+
+    *   Create a `.env` file in the `backend/` directory.
+    *   Configure the necessary variables:
+
+        ```
+        VIRTUALS_API_URL=your_virtuals_api_url
+        VIRTUALS_TERMINAL_API_URL=your_virtuals_terminal_api_url
+        API_KEY=your_api_key
+        PRIVATE_KEY=your_private_key
+        ```
+
+4.  **Run the backend server:**
+
+    ```
+    cd backend
+    npm run dev
+    ```
+
+    The server will start running at `http://localhost:5000` (or as configured).
+
+## How It Works
+
+1.  **Loads Environment Variables:**
+
+    *   Uses `dotenv.config()` to read API URLs from a `.env` file.
+    *   Reads:
+        *   `VIRTUALS_API_URL`: The main API for virtual agents.
+        *   `VIRTUALS_TERMINAL_API_URL`: The logging API.
+
+2.  **Fetches Available Virtual Agents:**
+
+    *   Calls `GET {VIRTUALS_API_URL}/agents` to retrieve a list of available agents.
+
+3.  **Selects the Best Virtual Agent via an Auction:**
+
+    *   Sends a `POST` request to `{VIRTUALS_API_URL}/auction` with the list of agents.
+    *   The API responds with `bestAgent`, which is assumed to be the most suitable agent.
+
+4.  **Executes an Action Using the Selected Agent:**
+
+    *   Sends a `POST` request to `{VIRTUALS_API_URL}/execute` with the selected agent.
+    *   Receives execution results.
+
+5.  **Logs the Execution Result:**
+
+    *   Sends a `POST` request to `{VIRTUALS_TERMINAL_API_URL}/log` with the execution results.
+
+6.  **Handles Errors Gracefully:**
+
+    *   If no agents are available or an API call fails, it logs errors.
+    *   Uses `try-catch` for error handling.
+    *   Ends execution if an error occurs.
+
+## Contributing
+
+1.  Fork the repository
+2.  Create a feature branch (`git checkout -b feature-name`)
+3.  Commit your changes (`git commit -m 'Add new feature'`)
+4.  Push to the branch (`git push origin feature-name`)
+5.  Open a pull request
+
+## License
+
 This project is licensed under the MIT License.
-Acknowledgments
 
+## Acknowledgments
+
+[Add any specific acknowledgments here - libraries, frameworks, people, etc.]
