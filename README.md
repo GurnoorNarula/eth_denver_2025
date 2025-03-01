@@ -90,8 +90,6 @@ TheAgentPages/
 ├── LICENSE # Project licensing details
 └── README.md # Project documentation
 
-Copy
-Edit
 
 ## Installation
 
