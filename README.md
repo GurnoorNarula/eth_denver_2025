@@ -74,11 +74,8 @@ The frontend system initializes and manages:
 
 ```TheAgentPages/
 
-├── 
-agents/  # AI agent implementations
-
+├── agents/  # AI agent implementations
 │   ├── CryptoPurchaseAgent.js  # Handles cryptocurrency transactions
-
 │   ├── OperatorAgent.js  # Manages operational tasks
 │   └── TwitterPostingAgent.js  # Automates Twitter postings
 ├── backend/  # Core backend server
