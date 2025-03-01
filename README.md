@@ -1,12 +1,12 @@
 # The Agent Pages
 
-🌟 ## Introduction
+## 🌟Introduction
 
 The Agent Pages is an agentic registry, discovery, and coordination protocol designed for complex autonomous agent-to-agent interactions. It defines a standardized token-curated registry of agents existing across on-chain and off-chain platforms. The protocol implements a sponsored search auction for agent discovery between the operator agent and the purpose-specific agents for each subtask. Finally, it implements a secure handshake to establish connectivity and compatibility between agents.
 
 This project leverages the Coinbase Developer Kit, Agentkit, and the Coinbase Wallet for agent identity and authentication, enabling seamless integration with decentralized applications. The system introduces an **Operator Agent**, a specialized AI-driven agent that facilitates task execution, ensuring efficiency and transparency in on-chain operations.
 
-## Motivation
+## 🌟Motivation
 
 We are transitioning to an environment where users want to outsource and automate time-consuming yet complex tasks. Lower attention spans create opportunities for personalized autonomous agents that humans can utilize to delegate tasks. We've seen this already, where users have begun to transition away from numerous distinct websites for data in favor of text-prompted LLMs that provide universal answers in one terminal. The natural next step is a locally-hosted autonomous agent that is trained on all your personal data - an autonomous extension of you.
 
