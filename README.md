@@ -73,6 +73,7 @@ The frontend system initializes and manages:
 *   Axios for REST API requests
 
 TheAgentPages/
+
 ├── agents/  # AI agent implementations
 │   ├── CryptoPurchaseAgent.js  # Handles cryptocurrency transactions
 │   ├── OperatorAgent.js  # Manages operational tasks
@@ -89,7 +90,6 @@ TheAgentPages/
 │   └── components/  # Reusable UI components
 ├── LICENSE  # Project licensing details
 └── README.md  # Project documentation
-
 
 ## Installation
 
