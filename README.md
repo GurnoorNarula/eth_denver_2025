@@ -72,6 +72,7 @@ The frontend system initializes and manages:
 *   dotenv for environment variables
 *   Axios for REST API requests
 
+
 TheAgentPages/
 ├── agents/ # AI agent implementations
 │ ├── CryptoPurchaseAgent.js # Handles cryptocurrency transactions
@@ -89,6 +90,10 @@ TheAgentPages/
 │ └── components/ # Reusable UI components
 ├── LICENSE # Project licensing details
 └── README.md # Project documentation
+
+Copy
+Edit
+
 
 
 ## Installation
