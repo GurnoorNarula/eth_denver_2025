@@ -73,7 +73,8 @@ The frontend system initializes and manages:
 *   Axios for REST API requests
 
 TheAgentPages/
-├── agents/  # AI agent implementations
+├── 
+agents/  # AI agent implementations
 
 │   ├── CryptoPurchaseAgent.js  # Handles cryptocurrency transactions
 
