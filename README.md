@@ -73,6 +73,7 @@ The frontend system initializes and manages:
 *   Axios for REST API requests
 
 TheAgentPages/
+
 ├── 
 agents/  # AI agent implementations
 
