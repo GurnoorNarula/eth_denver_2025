@@ -72,7 +72,7 @@ The frontend system initializes and manages:
 *   dotenv for environment variables
 *   Axios for REST API requests
 
-TheAgentPages/
+```TheAgentPages/
 
 ├── 
 agents/  # AI agent implementations
@@ -92,7 +92,7 @@ agents/  # AI agent implementations
 │   ├── pages/  # Frontend pages for interaction
 │   └── components/  # Reusable UI components
 ├── LICENSE  # Project licensing details
-└── README.md  # Project documentation
+└── README.md  # Project documentation```
 
 ## Installation
 
