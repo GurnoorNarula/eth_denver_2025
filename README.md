@@ -89,7 +89,6 @@ TheAgentPages/
 │ └── components/ # Reusable UI components
 ├── LICENSE # Project licensing details
 └── README.md # Project documentation
-
 ## Installation
 
 1.  **Clone the repository:**
