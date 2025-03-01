@@ -73,7 +73,7 @@ The frontend system initializes and manages:
 *   Axios for REST API requests
 
 TheAgentPages/
--- agents/ # AI agent implementations
+--agents/ # AI agent implementations
 --- CryptoPurchaseAgent.js # Handles cryptocurrency transactions
 --- OperatorAgent.js # Manages operational task
 ---TwitterPostingAgent.js # Automates Twitter postings
@@ -83,10 +83,10 @@ TheAgentPages/
 -- package.json # Node.js dependencies
 --- contracts/ # Smart contracts for agent coordination
 -- AgentRegistry.sol # Contract for agent registration
---- TaskExecution.sol # Contract for executing tasks
---- frontend/ # User-facing chatbot interface
---- pages/ # Frontend pages for interaction
---- components/ # Reusable UI components
+---TaskExecution.sol # Contract for executing tasks
+---frontend/ # User-facing chatbot interface
+---pages/ # Frontend pages for interaction
+---components/ # Reusable UI components
  LICENSE # Project licensing details
  README.md # Project documentation
 
