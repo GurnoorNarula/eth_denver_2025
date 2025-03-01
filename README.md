@@ -1,6 +1,6 @@
 # The Agent Pages
 
-## Introduction
+🌟 ## Introduction
 
 The Agent Pages is an agentic registry, discovery, and coordination protocol designed for complex autonomous agent-to-agent interactions. It defines a standardized token-curated registry of agents existing across on-chain and off-chain platforms. The protocol implements a sponsored search auction for agent discovery between the operator agent and the purpose-specific agents for each subtask. Finally, it implements a secure handshake to establish connectivity and compatibility between agents.
 
