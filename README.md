@@ -76,20 +76,19 @@ TheAgentPages/
 ├── agents/ # AI agent implementations
 │ ├── CryptoPurchaseAgent.js # Handles cryptocurrency transactions
 │ ├── OperatorAgent.js # Manages operational tasks
-│ ├── TwitterPostingAgent.js # Automates Twitter postings
+│ └── TwitterPostingAgent.js # Automates Twitter postings
 ├── backend/ # Core backend server
 │ ├── app.ts # Main backend entry point (TypeScript)
 │ ├── .env # Environment variables
-│ ├── package.json # Node.js dependencies
+│ └── package.json # Node.js dependencies
 ├── contracts/ # Smart contracts for agent coordination
 │ ├── AgentRegistry.sol # Contract for agent registration
-│ ├── TaskExecution.sol # Contract for executing tasks
+│ └── TaskExecution.sol # Contract for executing tasks
 ├── frontend/ # User-facing chatbot interface
 │ ├── pages/ # Frontend pages for interaction
-│ ├── components/ # Reusable UI components
+│ └── components/ # Reusable UI components
 ├── LICENSE # Project licensing details
-├── README.md # Project documentation
-
+└── README.md # Project documentation
 
 
 ## Installation
@@ -176,3 +175,7 @@ This project is licensed under the MIT License.
 ## Acknowledgments
 
 [Add any specific acknowledgments here - libraries, frameworks, people, etc.]
+
+
+
+
